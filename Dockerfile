@@ -1,0 +1,1 @@
+FROM python:3.11-slim`nWORKDIR /app`nCOPY requirements.txt .`nRUN pip install --no-cache-dir -r requirements.txt`nCOPY . .`nEXPOSE 8002`nENV HF_HOME=/app/hf_cache`nENV SENTENCE_TRANSFORMERS_HOME=/app/hf_cache`nENV PYTHONUNBUFFERED=1`nCMD ["python, run.py]
