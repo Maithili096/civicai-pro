@@ -1,0 +1,8 @@
+venv/ 
+__pycache__/ 
+*.pyc 
+.env 
+civicai_faiss_index/ 
+civicai_chroma_db/ 
+hf_cache/ 
+eval_report.json 
