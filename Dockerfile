@@ -1,1 +1,10 @@
-FROM python:3.11-slim`nWORKDIR /app`nCOPY requirements.txt .`nRUN pip install --no-cache-dir -r requirements.txt`nCOPY . .`nEXPOSE 8002`nENV HF_HOME=/app/hf_cache`nENV SENTENCE_TRANSFORMERS_HOME=/app/hf_cache`nENV PYTHONUNBUFFERED=1`nCMD ["python, run.py]
+FROM python:3.11-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+EXPOSE 8002
+ENV HF_HOME=/app/hf_cache
+ENV SENTENCE_TRANSFORMERS_HOME=/app/hf_cache
+ENV PYTHONUNBUFFERED=1
+CMD ["python", "run.py"]
