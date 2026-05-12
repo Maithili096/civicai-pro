@@ -20,7 +20,7 @@ pinned: false
 
 **A production-grade GenAI system with multi-agent orchestration, RAG pipeline, multilingual NLP, and real-time civic Q&A — deployed on cloud with CI/CD.**
 
-[Live Demo](https://civicai-pro-production.up.railway.app) • [API Docs](https://civicai-pro-production.up.railway.app/docs) • [LangSmith Traces](#observability)
+[Live Demo](https://civicai-pro-1.onrender.com) • [API Docs](https://civicai-pro-production.up.railway.app/docs) • [LangSmith Traces](#observability)
 
 </div>
 
