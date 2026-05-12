@@ -13,7 +13,7 @@ import json
 import time
 import pandas as pd
 
-BASE_URL = "http://127.0.0.1:8002"
+BASE_URL = "https://civicai-pro-1.onrender.com"
 
 st.set_page_config(
     page_title="CivicAI-Pro Dashboard",
