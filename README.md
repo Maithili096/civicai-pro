@@ -1,3 +1,11 @@
+---
+title: CivicAI-Pro
+emoji: 🏛️
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+---
 <div align="center">
 
 # 🏛️ CivicAI-Pro
